@@ -9,6 +9,7 @@ public class Probability {
 
     public Probability(double chance) {
         this.chance = chance;
+
     }
 
     @Override
@@ -34,8 +35,13 @@ public class Probability {
     public double getChance() {
         return chance;
     }
-    public Probability checkNotGettingChance() {
+
+    public Probability notGettingChance() {
         double noChance = 1 - chance;
         return new Probability(noChance);
+    }
+
+    public Probability and(Probability probability) {
+        return new Probability(chance * probability.chance);
     }
 }

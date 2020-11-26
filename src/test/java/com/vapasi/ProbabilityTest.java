@@ -1,32 +1,46 @@
 package com.vapasi;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import sun.plugin2.message.GetAppletMessage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class ProbabilityTest {
+   public static final double GET_CHANCE=0.5;
+   public static final double NO_CHANCE=1-GET_CHANCE;
+   public static Probability probability;
 
-
+    @BeforeAll
+    public static void setUp(){
+        probability = new Probability(GET_CHANCE);
+    }
     @Test
     public void shouldCompareSameValues(){
-        Probability probability1 = new Probability(0.5);
-        Probability probability2 = new Probability(0.5);
-        assertEquals(probability1,probability2);
+        Probability probability2 = new Probability(GET_CHANCE);
+        assertEquals(probability,probability2);
     }
 
     @Test
     public void shouldCompareTwoDifferentValues(){
-        Probability probability1 = new Probability(0.5);
         Probability probability2 = new Probability(1);
-        assertNotEquals(probability1,probability2);
+        assertNotEquals(probability,probability2);
     }
 
     @Test
     public void shouldReturnNotGettingChanceValue() {
-        Probability probability = new Probability(0.5);
-        Probability actual = probability.checkNotGettingChance();
-        assertEquals(0.5, actual.getChance());
+        Probability noProb = new Probability(NO_CHANCE);
+        Probability actual = probability.notGettingChance();
+        assertEquals(noProb, actual);
+    }
+
+    @Test
+    public void shouldReturnProbabilityOfTwoEvent() {
+        Probability anotherProbability=new Probability(GET_CHANCE);
+        Probability actual = probability.and(anotherProbability);
+        Probability expectedProb = new Probability(0.25);
+        assertEquals(expectedProb, actual);
     }
 
 
