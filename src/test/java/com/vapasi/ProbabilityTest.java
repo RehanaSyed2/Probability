@@ -22,4 +22,12 @@ public class ProbabilityTest {
         assertNotEquals(probability1,probability2);
     }
 
+    @Test
+    public void shouldReturnNotGettingChanceValue() {
+        Probability probability = new Probability(0.5);
+        Probability actual = probability.checkNotGettingChance();
+        assertEquals(0.5, actual.getChance());
+    }
+
+
 }

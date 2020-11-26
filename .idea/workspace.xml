@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b139fd74-8037-4431-916d-10a5fcb199dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/ProbabilityMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vapasi/ProbabilityMainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/25NovProbability/com/vapasi/Probability.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/25NovProbability/com/vapasi/Probability.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/25NovProbability/com/vapasi/ProbabilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/25NovProbability/com/vapasi/ProbabilityTest.class" afterDir="false" />
@@ -57,7 +57,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.ProbabilityTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vapasi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProbabilityTest.shouldReturnNotGettingChanceValue">
+    <configuration name="ProbabilityMainTest.shouldReturnNotGettingChanceValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="25NovProbability" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vapasi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vapasi" />
+      <option name="MAIN_CLASS_NAME" value="com.vapasi.ProbabilityMainTest" />
+      <option name="METHOD_NAME" value="shouldReturnNotGettingChanceValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProbabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="25NovProbability" />
       <extension name="coverage">
@@ -105,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbabilityTest.shouldPrintChanceOfGettingTails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProbabilityTest.shouldReturnNotGettingChanceValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="25NovProbability" />
       <extension name="coverage">
         <pattern>
@@ -115,23 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.vapasi" />
       <option name="MAIN_CLASS_NAME" value="com.vapasi.ProbabilityTest" />
-      <option name="METHOD_NAME" value="shouldPrintChanceOfGettingTails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProbabilityTest.shouldPrintChanceOfGettingTailsForNFlips" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="25NovProbability" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vapasi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vapasi" />
-      <option name="MAIN_CLASS_NAME" value="com.vapasi.ProbabilityTest" />
-      <option name="METHOD_NAME" value="shouldPrintChanceOfGettingTailsForNFlips" />
+      <option name="METHOD_NAME" value="shouldReturnNotGettingChanceValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProbabilityTest.shouldReturnNotGettingChanceValue" />
+        <item itemvalue="JUnit.ProbabilityMainTest.shouldReturnNotGettingChanceValue" />
         <item itemvalue="JUnit.ProbabilityTest" />
         <item itemvalue="JUnit.ProbabilityTest.shouldCompareTwoDifferentValues" />
         <item itemvalue="JUnit.ProbabilityTest.shouldCompareTwoValueObjects" />
-        <item itemvalue="JUnit.ProbabilityTest.shouldPrintChanceOfGettingTails" />
-        <item itemvalue="JUnit.ProbabilityTest.shouldPrintChanceOfGettingTailsForNFlips" />
       </list>
     </recent_temporary>
   </component>
@@ -170,30 +175,31 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="35" key="#com.intellij.ide.util.MemberChooser" timestamp="1606368606111">
-      <screen x="0" y="0" width="1366" height="639" />
+    <state x="549" y="40" key="#com.intellij.ide.util.MemberChooser" timestamp="1606382483969">
+      <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state x="488" y="35" key="#com.intellij.ide.util.MemberChooser/0.0.1366.639@0.0.1366.639" timestamp="1606368606111" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1606373704116">
+    <state x="549" y="40" key="#com.intellij.ide.util.MemberChooser/0.0.1536.734@0.0.1536.734" timestamp="1606382483969" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1606384924865">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.734@0.0.1536.734" timestamp="1606373704116" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1606373704115">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.734@0.0.1536.734" timestamp="1606384924865" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1606384924863">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.734@0.0.1536.734" timestamp="1606373704115" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1606373704115">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.734@0.0.1536.734" timestamp="1606384924863" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1606384924860">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.734@0.0.1536.734" timestamp="1606373704115" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1606373704115">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.734@0.0.1536.734" timestamp="1606384924860" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1606384924864">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.734@0.0.1536.734" timestamp="1606373704115" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.734@0.0.1536.734" timestamp="1606384924864" />
     <state width="1323" height="187" key="GridCell.Tab.1.bottom" timestamp="1606368168735">
       <screen x="0" y="0" width="1366" height="639" />
     </state>
@@ -214,5 +220,16 @@
       <screen x="0" y="0" width="1366" height="639" />
     </state>
     <state x="387" y="211" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.639@0.0.1366.639" timestamp="1606298491258" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/vapasi/ProbabilityTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -6,6 +6,7 @@ public class Probability {
 
     private final double chance;
 
+
     public Probability(double chance) {
         this.chance = chance;
     }
@@ -28,5 +29,13 @@ public class Probability {
     @Override
     public int hashCode() {
         return Objects.hash(chance);
+    }
+
+    public double getChance() {
+        return chance;
+    }
+    public Probability checkNotGettingChance() {
+        double noChance = 1 - chance;
+        return new Probability(noChance);
     }
 }
