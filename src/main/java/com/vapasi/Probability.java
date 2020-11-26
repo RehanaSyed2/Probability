@@ -3,10 +3,10 @@ package com.vapasi;
 import java.util.Objects;
 
 public class Probability {
+
     private final double chance;
 
-
-        public Probability(double chance) {
+    public Probability(double chance) {
         this.chance = chance;
     }
 
@@ -18,11 +18,11 @@ public class Probability {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Probability that = (Probability) o;
-        return Double.compare(that.chance, chance) == 0;
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        Probability that = (Probability) object;
+        return that.chance == this.chance;
     }
 
     @Override
