@@ -31,7 +31,7 @@ public class ProbabilityTest {
     @Test
     public void shouldReturnNotGettingChanceValue() {
         Probability noProb = new Probability(NO_CHANCE);
-        Probability actual = probability.notGettingChance();
+        Probability actual = probability.not();
         assertEquals(noProb, actual);
     }
 
@@ -45,21 +45,11 @@ public class ProbabilityTest {
     }
 
     @Test
-    public void shouldReturnPossibilityOfOneOutcome() {
-        double productOfNoTails = 0.25;
-        Probability expected = new Probability(productOfNoTails);
-        Probability notOfOneTail = probability.notGettingChance();
-        Probability notOfTails = notOfOneTail.and(notOfOneTail);
-        assertEquals(expected, notOfTails);
-    }
-
-    @Test
     public void shouldReturnChanceOfLeastOneOutcome() {
         double minimumOneTail = 0.75;
         Probability expected = new Probability(minimumOneTail);
-        Probability notOfOneTail = probability.notGettingChance();
-        Probability productOfTwoNot = notOfOneTail.and(notOfOneTail);
-        Probability actual = productOfTwoNot.notGettingChance();
+        Probability anotherProbability = new Probability(GET_CHANCE);
+        Probability actual = probability.or(anotherProbability);
         assertEquals(expected, actual);
     }
 

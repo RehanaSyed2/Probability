@@ -6,10 +6,8 @@ public class Probability {
 
     private final double chance;
 
-
     public Probability(double chance) {
         this.chance = chance;
-
     }
 
     @Override
@@ -36,12 +34,16 @@ public class Probability {
         return chance;
     }
 
-    public Probability notGettingChance() {
+    public Probability not() {
         double noChance = 1 - chance;
         return new Probability(noChance);
     }
 
     public Probability and(Probability probability) {
         return new Probability(chance * probability.chance);
+    }
+
+    public Probability or(Probability that) {
+        return (not().and(that.not())).not();
     }
 }

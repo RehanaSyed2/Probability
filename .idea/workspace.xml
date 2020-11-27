@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b139fd74-8037-4431-916d-10a5fcb199dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/25NovProbability/com/vapasi/Probability.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/25NovProbability/com/vapasi/Probability.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/25NovProbability/com/vapasi/ProbabilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/25NovProbability/com/vapasi/ProbabilityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vapasi/Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vapasi/Probability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vapasi/ProbabilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vapasi/ProbabilityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
       <recent name="com.vapasi" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProbabilityTest.shouldReturnPossibilityOfOneOutcome">
+  <component name="RunManager" selected="JUnit.ProbabilityTest">
     <configuration name="ProbabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="25NovProbability" />
       <extension name="coverage">
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProbabilityTest.shouldReturnPossibilityOfOneOutcome" />
-        <item itemvalue="JUnit.ProbabilityTest.shouldReturnChanceOfLeastOneOutcome" />
         <item itemvalue="JUnit.ProbabilityTest" />
-        <item itemvalue="JUnit.ProbabilityTest.shouldCompareSameValues" />
         <item itemvalue="JUnit.ProbabilityTest.shouldReturnProbabilityOfTwoEvent" />
+        <item itemvalue="JUnit.ProbabilityTest.shouldReturnChanceOfLeastOneOutcome" />
+        <item itemvalue="JUnit.ProbabilityTest.shouldReturnPossibilityOfOneOutcome" />
+        <item itemvalue="JUnit.ProbabilityTest.shouldCompareSameValues" />
       </list>
     </recent_temporary>
   </component>
@@ -180,26 +182,26 @@
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state x="498" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.734@0.0.1536.734" timestamp="1606385322768" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1606454741562">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1606456791210">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.734@0.0.1536.734" timestamp="1606454741562" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1606454741562">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.734@0.0.1536.734" timestamp="1606456791210" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1606456791209">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.734@0.0.1536.734" timestamp="1606454741562" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1606454741562">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.734@0.0.1536.734" timestamp="1606456791209" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1606456791209">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.734@0.0.1536.734" timestamp="1606454741562" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1606454741562">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.734@0.0.1536.734" timestamp="1606456791209" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1606456791209">
       <screen x="0" y="0" width="1536" height="734" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.639@0.0.1366.639" timestamp="1606368168734" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.734@0.0.1536.734" timestamp="1606454741562" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.734@0.0.1536.734" timestamp="1606456791209" />
     <state width="1323" height="187" key="GridCell.Tab.1.bottom" timestamp="1606368168735">
       <screen x="0" y="0" width="1366" height="639" />
     </state>
