@@ -43,5 +43,16 @@ public class ProbabilityTest {
         assertEquals(expectedProb, actual);
     }
 
+    @Test
+    public void shouldReturnChanceOfLeastOneOutcome() {
+        double minimumOneTail = 0.75;
+        Probability expected = new Probability(minimumOneTail);
+        Probability notOfOneTail = probability.notGettingChance();
+        Probability notOfTails = notOfOneTail.and(notOfOneTail);
+        Probability leastOneTail = notOfTails.notGettingChance();
+        assertEquals(expected, leastOneTail);
+    }
+
+
 
 }
